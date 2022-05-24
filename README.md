@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [See]([https://your-live-site-url.com](https://ecommerce-challenge-ch.netlify.app/))
+- Live Site URL: [See][https://your-live-site-url.com](https://ecommerce-challenge-ch.netlify.app/)
 
 ## My process
 
