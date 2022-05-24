@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Preview]([./screenshot.jpg](https://github.com/CecileHonnorat/eCommerce-Challenge/blob/master/public/images/desktop-design.jpg))
 
 
 ### Links
