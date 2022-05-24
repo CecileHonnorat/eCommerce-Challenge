@@ -1,24 +1,28 @@
-import logo from './logo.svg';
+import { Row } from 'react-bootstrap';
 import './App.css';
+
+// Import Components :
+import Header from './components/header';
+import Product from './components/product';
+
+// Redux et Reducers :
+import { Provider } from 'react-redux';
+import {createStore, combineReducers} from 'redux';
+import products from './reducers/products';
+
+const store = createStore(combineReducers({products}))
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Provider store={store}>
+    <Row className="App">
+      <Header />
+      <Row className="content">
+      <Product />
+      </Row>
+    </Row>
+    </Provider>
+
   );
 }
 
