@@ -48,4 +48,4 @@ Users should be able to:
 ### Continued development
 
 Work on the responsive ! 
-Make a carousel that looks like in the design
+Make a carousel that looks like in the design and fix some bugs
