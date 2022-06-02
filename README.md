@@ -27,13 +27,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Preview](https://github.com/CecileHonnorat/eCommerce-Challenge/blob/master/public/images/desktop-design.jpg)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [See Here](https://ecommerce-challenge-ch.netlify.app/)
 
 ## My process
 
@@ -49,4 +48,4 @@ Users should be able to:
 ### Continued development
 
 Work on the responsive ! 
-Make a carousel that looks like in the design
+Make a carousel that looks like in the design and fix some bugs
