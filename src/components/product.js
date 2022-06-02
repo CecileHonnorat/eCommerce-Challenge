@@ -57,24 +57,28 @@ export default function Product() {
                     </Modal>
                     <img src="../images/image-product-1-thumbnail.jpg"
                         className='thumbnails-selected'
-                        alt="sneaker1" />
+                        alt="sneaker1" 
+                        onClick={() => setModalShow(!modalShow)}/>
                     <img src="../images/image-product-2-thumbnail.jpg"
                         className='thumbnails'
                         alt="sneaker2" 
                         onMouseEnter={() =>  setHoverImg2(!hoverImg2)}
                         onMouseLeave={() => setHoverImg2(!hoverImg2) }
+                        onClick={() => setModalShow(!modalShow)}
                         style={{ opacity: (hoverImg2 ? '60%' : '100%') }}/>
                     <img src="../images/image-product-3-thumbnail.jpg"
                         className='thumbnails'
                         alt="sneaker3" 
                         onMouseEnter={() => setHoverImg3(!hoverImg3)}
                         onMouseLeave={() => setHoverImg3(!hoverImg3) }
+                        onClick={() => setModalShow(!modalShow)}
                         style={{ opacity: (hoverImg3 ? '60%' : '100%') }}/>
                     <img src="../images/image-product-4-thumbnail.jpg"
                         className='thumbnails'
                         alt="sneaker4" 
                         onMouseEnter={() => { setHoverImg(!hoverImg)}}
                         onMouseLeave={() => { setHoverImg(!hoverImg) }}
+                        onClick={() => setModalShow(!modalShow)}
                         style={{ opacity: (hoverImg ? '60%' : '100%') }}/>
                 </Col>
                 <Col sm md={4} className="productInfo">
